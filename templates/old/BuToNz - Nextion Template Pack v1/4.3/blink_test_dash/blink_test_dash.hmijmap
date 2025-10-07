@@ -1,0 +1,148 @@
+{
+  "BindingsEx": {
+    "global.ses_name.txt": {
+      "Formula": {
+        "Expression": "[SessionTypeName]"
+      },
+      "Mode": 2
+    },
+    "global.fuel.txt": {
+      "Formula": {
+        "Expression": "format(isnull([Fuel],0),'0.0')"
+      },
+      "Mode": 2
+    },
+    "global.fuel.pco": {
+      "Formula": {
+        "Expression": "if(1,if(blink(blinkerflue, 1000, 1),1,0),1)"
+      },
+      "StartColor": "#FFFFFFFF",
+      "EnableMiddleColor": false,
+      "MiddleColor": "#FF000000",
+      "MiddleColorValue": 1.0,
+      "EndColor": "#FFFF0000",
+      "StartColorValue": 0.0,
+      "EndColorValue": 1.0,
+      "Mode": 4
+    },
+    "global.time_lap.txt": {
+      "Formula": {
+        "Expression": "if([TotalLaps] > 0, \r\n    format([CurentLap],'0') + ('/') + format([TotalLaps],'0'), \r\n    format([SessionTimeLeft], 'hh\\\\:mm\\\\:ss'))\r\n"
+      },
+      "Mode": 2
+    },
+    "global.flag.txt": {
+      "Formula": {
+        "Expression": "if([Flag_Blue], 3,\r\nif([Flag_Checkered], 4,\r\nif([Flag_Green], 5,\r\nif([Flag_White], 6,\r\n0))))\r\n"
+      },
+      "Mode": 2
+    },
+    "global.pos.txt": {
+      "Formula": {
+        "Expression": "[Position]"
+      },
+      "Mode": 2
+    },
+    "global.pos_total.txt": {
+      "Formula": {
+        "Expression": "[PlayerClassOpponentsCount]"
+      },
+      "Mode": 2
+    },
+    "global.speed.txt": {
+      "Formula": {
+        "Expression": "[SpeedKmh]"
+      },
+      "Mode": 2
+    },
+    "global.ses_name.bco": {
+      "Formula": {
+        "Expression": "if(1,if(blink(blinkerfluebg1, 500, 1),1,0),1)"
+      },
+      "StartColor": "#FF000000",
+      "EnableMiddleColor": false,
+      "MiddleColor": "#FF000000",
+      "MiddleColorValue": 1.0,
+      "EndColor": "#FFFFFF00",
+      "StartColorValue": 0.0,
+      "EndColorValue": 1.0,
+      "Mode": 4
+    },
+    "global.ses_name.pco": {
+      "Formula": {
+        "Expression": "if(1,if(blink(blinkertellowtxt1, 500, 1),1,0),1)"
+      },
+      "StartColor": "#FFFFFFFF",
+      "EnableMiddleColor": false,
+      "MiddleColor": "#FF000000",
+      "MiddleColorValue": 1.0,
+      "EndColor": "#FF000000",
+      "StartColorValue": 0.0,
+      "EndColorValue": 1.0,
+      "Mode": 4
+    },
+    "global.time_lap.bco": {
+      "Formula": {
+        "Expression": "if(1,if(blink(blinkerfluebg2, 500, 1),1,0),1)"
+      },
+      "StartColor": "#FF000000",
+      "EnableMiddleColor": false,
+      "MiddleColor": "#FF000000",
+      "MiddleColorValue": 1.0,
+      "EndColor": "#FFFFFF00",
+      "StartColorValue": 0.0,
+      "EndColorValue": 1.0,
+      "Mode": 4
+    },
+    "global.time_lap.pco": {
+      "Formula": {
+        "Expression": "if(1,if(blink(blinkerfluetxt2, 500, 1),1,0),1)"
+      },
+      "StartColor": "#FFFFFFFF",
+      "EnableMiddleColor": false,
+      "MiddleColor": "#FF000000",
+      "MiddleColorValue": 1.0,
+      "EndColor": "#FF000000",
+      "StartColorValue": 0.0,
+      "EndColorValue": 1.0,
+      "Mode": 4
+    }
+  },
+  "RolesEx": {
+    "Global.gear": "GearRole;{\r\n  \"RedlineBlink\": true,\r\n  \"BlinkColor\": \"#FFFF0000\",\r\n  \"BlinkDelay\": 250\r\n}",
+    "Global.rpm": "RPMRole;{}"
+  },
+  "ClickActionsEx": {},
+  "HotSpots": [],
+  "PagesMappings": [
+    {
+      "PageName": "idle",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": true,
+      "Skip": false
+    },
+    {
+      "PageName": "main",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "page0",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": true,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {},
+  "VirtualPages": []
+}
