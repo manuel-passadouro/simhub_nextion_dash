@@ -1,0 +1,48 @@
+{
+  "BindingsEx": {
+    "global.ses_name.bco": {
+      "Formula": {
+        "Expression": "if([DataCorePlugin.GameData.Flag_Yellow],\r\n   (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65504,\r\n   if([DataCorePlugin.GameData.Flag_Green],\r\n      (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 2016,\r\n      if([DataCorePlugin.GameData.Flag_Blue],\r\n         (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 31,\r\n         0)))\r\n"
+      },
+      "Mode": 2
+    },
+    "global.fuel.pco": {
+      "Formula": {
+        "Expression": "format([DataCorePlugin.CurrentDateTime], 'ss')%3"
+      },
+      "StartColor": "#FF000000",
+      "EnableMiddleColor": false,
+      "MiddleColor": "#FF000000",
+      "MiddleColorValue": 1.0,
+      "EndColor": "#FFFF0000",
+      "StartColorValue": 0.0,
+      "EndColorValue": 1.0,
+      "Mode": 4
+    }
+  },
+  "RolesEx": {},
+  "ClickActionsEx": {},
+  "HotSpots": [],
+  "PagesMappings": [
+    {
+      "PageName": "idle",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": true,
+      "Skip": false
+    },
+    {
+      "PageName": "main",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": true,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {},
+  "VirtualPages": []
+}
