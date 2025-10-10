@@ -71,7 +71,7 @@
     "global.btfl.txt": {
       "FormatString": "0",
       "Formula": {
-        "Expression": "[BrakeTemperatureFrontLeft]"
+        "Expression": "format(isnull([BrakeTemperatureFrontLeft],0),'0')+'°'"
       },
       "Mode": 2
     },
@@ -84,7 +84,7 @@
     "global.btfr.txt": {
       "FormatString": "0",
       "Formula": {
-        "Expression": "[BrakeTemperatureFrontRight]"
+        "Expression": "format(isnull([BrakeTemperatureFrontRight],0),'0')+'°'"
       },
       "Mode": 2
     },
@@ -97,7 +97,7 @@
     "global.btrl.txt": {
       "FormatString": "0",
       "Formula": {
-        "Expression": "[BrakeTemperatureRearLeft]"
+        "Expression": "format(isnull([BrakeTemperatureRearLeft],0),'0')+'°'"
       },
       "Mode": 2
     },
@@ -245,7 +245,7 @@
     "global.btrr.txt": {
       "FormatString": "0",
       "Formula": {
-        "Expression": "[BrakeTemperatureRearRight]"
+        "Expression": "format(isnull([BrakeTemperatureRearRight],0),'0')+'°'"
       },
       "Mode": 2
     },
@@ -297,14 +297,14 @@
     "global.air_t.txt": {
       "FormatString": "0",
       "Formula": {
-        "Expression": "[AirTemperature]"
+        "Expression": "format(isnull([AirTemperature],0),'0')+'°'"
       },
       "Mode": 2
     },
     "global.track_t.txt": {
       "FormatString": "0",
       "Formula": {
-        "Expression": "[RoadTemperature]"
+        "Expression": "format(isnull([RoadTemperature],0),'0')+'°'"
       },
       "Mode": 2
     },
@@ -367,20 +367,20 @@
     },
     "global.pos.txt": {
       "Formula": {
-        "Expression": "[Position]"
+        "Expression": "format([Position],'0')+ '/' + format([PlayerClassOpponentsCount],'0')"
       },
       "Mode": 2
     },
     "global.ses_name.txt": {
       "Formula": {
-        "Expression": "[SessionTypeName]"
+        "Expression": "if([GameRawData.mSessionDuration] == -1,\r\n   'TEST',\r\n   [SessionTypeName])\r\n"
       },
       "Mode": 2
     },
     "global.time_lap.txt": {
       "FormatString": "",
       "Formula": {
-        "Expression": "if([TotalLaps] > 0, \r\n    format([CurrentLap],'0') + ('/') + format([TotalLaps],'0'), \r\n    format([SessionTimeLeft], 'hh\\\\:mm\\\\:ss'))\r\n"
+        "Expression": "if([DataCorePlugin.GameRawData.mRaceState] == 3,\r\n    'FINISH',\r\n    if([GameRawData.mSessionDuration] == -1,\r\n        format(secondstotimespan(timeSinceLastEvent('DataCorePlugin.GameStarted')), 'hh\\\\:mm\\\\:ss'),\r\n        if([TotalLaps] > 0,\r\n            format([CurrentLap], '0') + '/' + format([TotalLaps], '0'),\r\n            format([SessionTimeLeft], 'hh\\\\:mm\\\\:ss')\r\n        )\r\n    )\r\n)\r\n\r\n"
       },
       "Mode": 2
     },
@@ -398,7 +398,7 @@
     },
     "global.time_lap.pco": {
       "Formula": {
-        "Expression": "if([DataCorePlugin.GameData.Flag_Yellow],\r\n   65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n   if([DataCorePlugin.GameData.Flag_Green],\r\n      0,\r\n      if([DataCorePlugin.GameData.Flag_Blue],\r\n         65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n         65535)))\r\n"
+        "Expression": "if([DataCorePlugin.GameRawData.mRaceState] == 3,\r\n    65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n    if([DataCorePlugin.GameData.Flag_Yellow],\r\n        65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n        if([DataCorePlugin.GameData.Flag_Green],\r\n            0,\r\n            if([DataCorePlugin.GameData.Flag_Blue],\r\n                65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n                65535\r\n            )\r\n        )\r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
@@ -416,7 +416,7 @@
     },
     "global.ses_name.pco": {
       "Formula": {
-        "Expression": "if([DataCorePlugin.GameData.Flag_Yellow],\r\n   65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n   if([DataCorePlugin.GameData.Flag_Green],\r\n      0,\r\n      if([DataCorePlugin.GameData.Flag_Blue],\r\n         65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n         65535)))\r\n"
+        "Expression": "if([DataCorePlugin.GameRawData.mRaceState] == 3,\r\n    65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n    if([DataCorePlugin.GameData.Flag_Yellow],\r\n        65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n        if([DataCorePlugin.GameData.Flag_Green],\r\n            0,\r\n            if([DataCorePlugin.GameData.Flag_Blue],\r\n                65535 - (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * 65535,\r\n                65535\r\n            )\r\n        )\r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
@@ -457,7 +457,7 @@
     "global.best_lap.txt": {
       "FormatString": "mm\\:ss\\.fff",
       "Formula": {
-        "Expression": "[PersistantTrackerPlugin.SessionBest]"
+        "Expression": "[BestLapTime]"
       },
       "Mode": 2
     },
@@ -560,19 +560,6 @@
       },
       "Mode": 2
     },
-    "global.fuel.pco": {
-      "Formula": {
-        "Expression": "if(blink(fuel_blink, 1000,0), 0, 1)"
-      },
-      "StartColor": "#FFFF0000",
-      "EnableMiddleColor": false,
-      "MiddleColor": "#FF000000",
-      "MiddleColorValue": 1.0,
-      "EndColor": "#FFFFFFFF",
-      "StartColorValue": 0.0,
-      "EndColorValue": 1.0,
-      "Mode": 4
-    },
     "main.s1_time.txt": {
       "FormatString": "0.000",
       "Formula": {
@@ -656,13 +643,13 @@
     },
     "global.ses_name.bco": {
       "Formula": {
-        "Expression": "if([DataCorePlugin.GameData.Flag_Yellow]&&[DataCorePlugin.GameRawData.mYellowFlagState] != 7,\r\n   16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (65504 - 16904),\r\n   \r\nif([DataCorePlugin.GameRawData.mYellowFlagState] == 7,\r\n   65504,\r\n\r\nif([DataCorePlugin.GameData.Flag_Green],\r\n\t5282,\r\n\r\nif([DataCorePlugin.GameData.Flag_Blue],\r\n\t16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (31 - 16904),\r\n\t\r\n\t16904))))\r\n"
+        "Expression": "if([DataCorePlugin.GameRawData.mRaceState] == 3,\r\n    16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (65535 - 16904),\r\n\r\n    if([DataCorePlugin.GameData.Flag_Yellow] && [DataCorePlugin.GameRawData.mYellowFlagState] != 7,\r\n        16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (65504 - 16904),\r\n\r\n        if([DataCorePlugin.GameRawData.mYellowFlagState] == 7,\r\n            65504,\r\n\r\n            if([DataCorePlugin.GameData.Flag_Green],\r\n                5282,\r\n\r\n                if([DataCorePlugin.GameData.Flag_Blue],\r\n                    16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (31 - 16904),\r\n                    16904\r\n                )\r\n            )\r\n        )\r\n    )\r\n)\r\n\r\n"
       },
       "Mode": 2
     },
     "global.time_lap.bco": {
       "Formula": {
-        "Expression": "if([DataCorePlugin.GameData.Flag_Yellow],\r\n   16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (65504 - 16904),\r\n   if([DataCorePlugin.GameData.Flag_Green],\r\n      5282,\r\n      if([DataCorePlugin.GameData.Flag_Blue],\r\n         16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (31 - 16904),\r\n         16904)))\r\n"
+        "Expression": "if([DataCorePlugin.GameRawData.mRaceState] == 3,\r\n    16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (65535 - 16904),\r\n\r\n    if([DataCorePlugin.GameData.Flag_Yellow] && [DataCorePlugin.GameRawData.mYellowFlagState] != 7,\r\n        16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (65504 - 16904),\r\n\r\n        if([DataCorePlugin.GameRawData.mYellowFlagState] == 7,\r\n            65504,\r\n\r\n            if([DataCorePlugin.GameData.Flag_Green],\r\n                5282,\r\n\r\n                if([DataCorePlugin.GameData.Flag_Blue],\r\n                    16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (31 - 16904),\r\n                    16904\r\n                )\r\n            )\r\n        )\r\n    )\r\n)\r\n\r\n"
       },
       "Mode": 2
     },
@@ -675,6 +662,69 @@
     "global.flag_2.bco": {
       "Formula": {
         "Expression": "if([DataCorePlugin.GameData.Flag_Yellow],\r\n   16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (65504 - 16904),\r\n   if([DataCorePlugin.GameData.Flag_Green],\r\n      16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (2016 - 16904),\r\n      if([DataCorePlugin.GameData.Flag_Blue],\r\n         16904 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (31 - 16904),\r\n         16904)))\r\n"
+      },
+      "Mode": 2
+    },
+    "global.t5.txt": {
+      "Formula": {
+        "Expression": "60"
+      },
+      "Mode": 2
+    },
+    "global.dsfr.txt": {
+      "Formula": {
+        "Expression": "[GameRawData.mSuspensionDamage02]"
+      },
+      "Mode": 2
+    },
+    "global.dsfl.txt": {
+      "Formula": {
+        "Expression": "[GameRawData.mSuspensionDamage01]"
+      },
+      "Mode": 2
+    },
+    "global.dsrl.txt": {
+      "Formula": {
+        "Expression": "[GameRawData.mSuspensionDamage03]"
+      },
+      "Mode": 2
+    },
+    "global.dsrr.txt": {
+      "Formula": {
+        "Expression": "[GameRawData.mSuspensionDamage04]"
+      },
+      "Mode": 2
+    },
+    "global.t9.pco": {
+      "Formula": {
+        "Expression": "if([CarSettings_FuelAlertActive],\r\n    (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 1000 * 2) % 2) * 63488,\r\n    63488)\r\n\r\n"
+      },
+      "Mode": 2
+    },
+    "global.s3_time.txt": {
+      "FormatString": "ss\\.fff",
+      "Formula": {
+        "Expression": "[Sector3LastLapTime]"
+      },
+      "Mode": 2
+    },
+    "global.s2_time.txt": {
+      "FormatString": "ss\\.fff",
+      "Formula": {
+        "Expression": "[Sector2LastLapTime]"
+      },
+      "Mode": 2
+    },
+    "global.s1_time.txt": {
+      "FormatString": "ss\\.fff",
+      "Formula": {
+        "Expression": "[Sector1LastLapTime]"
+      },
+      "Mode": 2
+    },
+    "global.fuel.pco": {
+      "Formula": {
+        "Expression": "if([CarSettings_FuelAlertActive],\r\n    0 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 1000 * 2) % 2) * 65535,\r\n    65535)\r\n\r\n"
       },
       "Mode": 2
     }
@@ -690,7 +740,8 @@
     "Global.tfltemp": "TyresTempRole;{\r\n  \"TyresTempType\": 0,\r\n  \"TyresTempTypes\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ],\r\n  \"TyrePosition\": 0,\r\n  \"Precision\": 0,\r\n  \"AppendUnit\": true,\r\n  \"TyrePositions\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ]\r\n}",
     "Global.tfrtemp": "TyresTempRole;{\r\n  \"TyresTempType\": 0,\r\n  \"TyresTempTypes\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ],\r\n  \"TyrePosition\": 1,\r\n  \"Precision\": 0,\r\n  \"AppendUnit\": true,\r\n  \"TyrePositions\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ]\r\n}",
     "Global.tbltemp": "TyresTempRole;{\r\n  \"TyresTempType\": 0,\r\n  \"TyresTempTypes\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ],\r\n  \"TyrePosition\": 2,\r\n  \"Precision\": 0,\r\n  \"AppendUnit\": true,\r\n  \"TyrePositions\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ]\r\n}",
-    "Global.tbrtemp": "TyresTempRole;{\r\n  \"TyresTempType\": 0,\r\n  \"TyresTempTypes\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ],\r\n  \"TyrePosition\": 3,\r\n  \"Precision\": 0,\r\n  \"AppendUnit\": true,\r\n  \"TyrePositions\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ]\r\n}"
+    "Global.tbrtemp": "TyresTempRole;{\r\n  \"TyresTempType\": 0,\r\n  \"TyresTempTypes\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ],\r\n  \"TyrePosition\": 3,\r\n  \"Precision\": 0,\r\n  \"AppendUnit\": true,\r\n  \"TyrePositions\": [\r\n    0,\r\n    1,\r\n    2,\r\n    3\r\n  ]\r\n}",
+    "Global.speed": "SpeedRole;{}"
   },
   "ClickActionsEx": {},
   "HotSpots": [],
@@ -751,16 +802,30 @@
       "InGame": false,
       "Idle": false,
       "Skip": true
+    },
+    {
+      "PageName": "sectors",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "gaps",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
     }
   ],
   "RefreshDelaysEx": {
-    "global.btrl": 1000,
-    "global.btfl": 10000,
     "global.tfltemp": 1000,
     "global.tbltemp": 1000,
     "global.tfrtemp": 1000,
-    "global.btfr": 1000,
-    "global.btrr": 1001,
     "global.tbrtemp": 1000,
     "global.air_t": 10000,
     "global.track_t": 10000
