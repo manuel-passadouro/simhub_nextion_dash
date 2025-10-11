@@ -660,7 +660,7 @@
     },
     "global.t5.txt": {
       "Formula": {
-        "Expression": "60"
+        "Expression": "'PIT'"
       },
       "Mode": 2
     },
@@ -766,20 +766,20 @@
     "global.teo_lap.txt": {
       "FormatString": "mm\\.ss\\.fff",
       "Formula": {
-        "Expression": "if(\r\n    isnull([Sector1BestLapTime]) || isnull([Sector2BestLapTime]) || isnull([Sector3BestLapTime]),\r\n    '-',\r\n    format(\r\n        secondstotimespan(\r\n            timespantoseconds([Sector1BestLapTime]) +\r\n            timespantoseconds([Sector2BestLapTime]) +\r\n            timespantoseconds([Sector3BestLapTime])\r\n        ),\r\n        'mm\\\\:ss\\\\.fff'\r\n    )\r\n)\r\n\r\n"
+        "Expression": "if(\r\n    isnull([Sector1BestTime]) || isnull([Sector2BestTime]) || isnull([Sector3BestTime]),\r\n    '-',\r\n    format(\r\n        secondstotimespan(\r\n            timespantoseconds([Sector1BestTime]) +\r\n            timespantoseconds([Sector2BestTime]) +\r\n            timespantoseconds([Sector3BestTime])\r\n        ),\r\n        'mm\\\\:ss\\\\.fff'\r\n    )\r\n)\r\n\r\n"
       },
       "Mode": 2
     },
     "global.delta_teo.txt": {
       "Formula": {
-        "Expression": "if(\r\n    isnull([Sector1BestLapTime]) || isnull([Sector2BestLapTime]) || isnull([Sector3BestLapTime]) || isnull([BestLapTime]),\r\n    '-',\r\n    format(\r\n        timespantoseconds([BestLapTime]) -\r\n        (\r\n            timespantoseconds([Sector1BestLapTime]) +\r\n            timespantoseconds([Sector2BestLapTime]) +\r\n            timespantoseconds([Sector3BestLapTime])\r\n        ),\r\n        '+0.000;-0.000'\r\n    )\r\n)\r\n"
+        "Expression": "if(\r\n    isnull([Sector1BestTime]) || isnull([Sector2BestTime]) || isnull([Sector3BestTime]) || isnull([BestLapTime]),\r\n    '-',\r\n    format(\r\n        timespantoseconds([BestLapTime]) -\r\n        (\r\n            timespantoseconds([Sector1BestTime]) +\r\n            timespantoseconds([Sector2BestTime]) +\r\n            timespantoseconds([Sector3BestTime])\r\n        ),\r\n        '+0.000;-0.000'\r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
     "global.fl_t.txt": {
       "FormatString": "mm\\.ss\\.fff",
       "Formula": {
-        "Expression": "if(timespantoseconds([LastLapTime]) == 0, '-', [BestLapTime])\r\n"
+        "Expression": "if(timespantoseconds([LastLapTime]) == 0, '-', [LastLapTime])\r\n"
       },
       "Mode": 2
     },
@@ -797,7 +797,7 @@
     },
     "global.fl_d.txt": {
       "Formula": {
-        "Expression": "if(\r\n    timespantoseconds([BestLapTime]) == 0 || timespantoseconds([LastLapTime]) == 0,\r\n    '-',\r\n    format(\r\n        timespantoseconds([BestLapTime]) -\r\n        timespantoseconds([LastLapTime]),\r\n        '+0.000;-0.000'\r\n    )\r\n)\r\n"
+        "Expression": "if(\r\n    timespantoseconds([BestLapTime]) == 0 || timespantoseconds([LastLapTime]) == 0,\r\n    '-',\r\n    format(\r\n        timespantoseconds([LastLapTime]) -\r\n        timespantoseconds([BestLapTime]),\r\n        '+0.000;-0.000'\r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
@@ -810,13 +810,13 @@
     },
     "global.fl_d.pco": {
       "Formula": {
-        "Expression": "if(\r\n    timespantoseconds([BestLapTime]) == 0 || timespantoseconds([LastLapTime]) == 0,\r\n    0,\r\n    if(\r\n        timespantoseconds([BestLapTime]) -\r\n        timespantoseconds([LastLapTime]) < 0,\r\n        2016,   \r\n        63488   \r\n    )\r\n)\r\n"
+        "Expression": "if(\r\n    timespantoseconds([BestLapTime]) == 0 || timespantoseconds([LastLapTime]) == 0,\r\n    0,\r\n    if(\r\n        timespantoseconds([LastLapTime]) -\r\n        timespantoseconds([BestLapTime]) < 0,\r\n        2016,   \r\n        63943   \r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
     "global.s1_d.pco": {
       "Formula": {
-        "Expression": "if(isnull([Sector1BestLapTime]),\r\n    0,\r\n    if(\r\n        timespantoseconds(\r\n            if(isnull([Sector1Time]),\r\n                [Sector1LastLapTime],\r\n                [Sector1Time]\r\n            )\r\n        ) -\r\n        timespantoseconds([Sector1BestLapTime]) < 0,\r\n        2016,   \r\n        63488  \r\n    )\r\n)\r\n"
+        "Expression": "if(isnull([Sector1BestLapTime]),\r\n    0,\r\n    if(\r\n        timespantoseconds(\r\n            if(isnull([Sector1Time]),\r\n                [Sector1LastLapTime],\r\n                [Sector1Time]\r\n            )\r\n        ) -\r\n        timespantoseconds([Sector1BestLapTime]) < 0,\r\n        2016,   \r\n        63943  \r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
@@ -829,19 +829,19 @@
     },
     "global.delta_teo.pco": {
       "Formula": {
-        "Expression": "if(\r\n    timespantoseconds([BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector1BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector2BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector3BestLapTime]) == 0,\r\n    0,\r\n    if(\r\n        timespantoseconds([BestLapTime]) -\r\n        (\r\n            timespantoseconds([Sector1BestLapTime]) +\r\n            timespantoseconds([Sector2BestLapTime]) +\r\n            timespantoseconds([Sector3BestLapTime])\r\n        ) < 0,\r\n        2016,   \r\n        63488   \r\n    )\r\n)\r\n"
+        "Expression": "if(\r\n    timespantoseconds([BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector1BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector2BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector3BestLapTime]) == 0,\r\n    0,\r\n    if(\r\n        timespantoseconds([BestLapTime]) -\r\n        (\r\n            timespantoseconds([Sector1BestLapTime]) +\r\n            timespantoseconds([Sector2BestLapTime]) +\r\n            timespantoseconds([Sector3BestLapTime])\r\n        ) < 0,\r\n        2016,   \r\n        63943   \r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
     "global.s3_d.pco": {
       "Formula": {
-        "Expression": "if(isnull([Sector3BestLapTime]),\r\n    0,\r\n    if(\r\n        timespantoseconds(\r\n            if(isnull([Sector3Time]),\r\n                [Sector3LastLapTime],\r\n                [Sector3Time]\r\n            )\r\n        ) -\r\n        timespantoseconds([Sector3BestLapTime]) < 0,\r\n        2016,   \r\n        63488   \r\n    )\r\n)\r\n"
+        "Expression": "if(isnull([Sector3BestLapTime]),\r\n    0,\r\n    if(\r\n        timespantoseconds(\r\n            if(isnull([Sector3Time]),\r\n                [Sector3LastLapTime],\r\n                [Sector3Time]\r\n            )\r\n        ) -\r\n        timespantoseconds([Sector3BestLapTime]) < 0,\r\n        2016,   \r\n        63943   \r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
     "global.s2_d.pco": {
       "Formula": {
-        "Expression": "if(isnull([Sector2BestLapTime]),\r\n    0,\r\n    if(\r\n        timespantoseconds(\r\n            if(isnull([Sector2Time]),\r\n                [Sector2LastLapTime],\r\n                [Sector2Time]\r\n            )\r\n        ) -\r\n        timespantoseconds([Sector2BestLapTime]) < 0,\r\n        2016,   \r\n        63488  \r\n    )\r\n)\r\n"
+        "Expression": "if(isnull([Sector2BestLapTime]),\r\n    0,\r\n    if(\r\n        timespantoseconds(\r\n            if(isnull([Sector2Time]),\r\n                [Sector2LastLapTime],\r\n                [Sector2Time]\r\n            )\r\n        ) -\r\n        timespantoseconds([Sector2BestLapTime]) < 0,\r\n        2016,   \r\n        63943  \r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
@@ -903,6 +903,19 @@
         "Expression": "[GameRawData.mPitSchedule]"
       },
       "Mode": 2
+    },
+    "global.t5.pco": {
+      "Formula": {
+        "Expression": "[GameRawData.mPitSchedule]"
+      },
+      "StartColor": "#FF000000",
+      "EnableMiddleColor": false,
+      "MiddleColor": "#FF000000",
+      "MiddleColorValue": 1.0,
+      "EndColor": "#FFD2691E",
+      "StartColorValue": 0.0,
+      "EndColorValue": 1.0,
+      "Mode": 4
     }
   },
   "RolesEx": {
