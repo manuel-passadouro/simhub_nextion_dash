@@ -6070,7 +6070,7 @@
               "Value": "wAA="
             },
             "y": {
-              "Value": "XgA="
+              "Value": "aAA="
             },
             "w": {
               "Value": "XwA="
@@ -6082,7 +6082,7 @@
               "Value": "HgE="
             },
             "endy": {
-              "Value": "ywA="
+              "Value": "1QA="
             },
             "effect": {
               "Value": "AA=="
@@ -6152,14 +6152,14 @@
             }
           },
           "Global": true,
-          "Height": 110,
+          "Height": 99,
           "Id": 2,
           "Left": 192,
           "Name": "gear",
-          "Top": 94,
+          "Top": 104,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 95,
+          "Width": 94,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -6844,7 +6844,7 @@
               "Value": "zwA="
             },
             "y": {
-              "Value": "zAA="
+              "Value": "1gA="
             },
             "w": {
               "Value": "PgA="
@@ -6856,7 +6856,7 @@
               "Value": "DAE="
             },
             "endy": {
-              "Value": "3wA="
+              "Value": "6QA="
             },
             "effect": {
               "Value": "AA=="
@@ -6926,11 +6926,11 @@
             }
           },
           "Global": true,
-          "Height": 20,
+          "Height": 10,
           "Id": 8,
           "Left": 207,
           "Name": "rpm",
-          "Top": 204,
+          "Top": 214,
           "Type": "Text",
           "TypeId": 116,
           "Width": 62,
@@ -10213,7 +10213,7 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "aAE="
+              "Value": "bAE="
             },
             "y": {
               "Value": "ywA="
@@ -10225,7 +10225,7 @@
               "Value": "FQA="
             },
             "endx": {
-              "Value": "ywE="
+              "Value": "zwE="
             },
             "endy": {
               "Value": "3wA="
@@ -10300,12 +10300,12 @@
           "Global": true,
           "Height": 21,
           "Id": 36,
-          "Left": 360,
+          "Left": 364,
           "Name": "best_lap",
           "Top": 203,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 100,
+          "Width": 96,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -10471,19 +10471,19 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "hgE="
+              "Value": "gAE="
             },
             "y": {
               "Value": "9AA="
             },
             "w": {
-              "Value": "RgA="
+              "Value": "TgA="
             },
             "h": {
               "Value": "FQA="
             },
             "endx": {
-              "Value": "ywE="
+              "Value": "zQE="
             },
             "endy": {
               "Value": "CAE="
@@ -10540,7 +10540,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "ODguODg4"
+              "Value": "Kzg4Ljg4OA=="
             },
             "txt_maxl": {
               "Value": "CgA="
@@ -10558,12 +10558,12 @@
           "Global": true,
           "Height": 21,
           "Id": 38,
-          "Left": 390,
+          "Left": 384,
           "Name": "delta_teo",
           "Top": 244,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 70,
+          "Width": 84,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -11761,22 +11761,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "QAE="
+              "Value": "DgE="
             },
             "y": {
-              "Value": "ggA="
+              "Value": "VQA="
             },
             "w": {
-              "Value": "GAA="
+              "Value": "MAA="
             },
             "h": {
-              "Value": "DgA="
+              "Value": "FgA="
             },
             "endx": {
-              "Value": "VwE="
+              "Value": "PQE="
             },
             "endy": {
-              "Value": "jwA="
+              "Value": "agA="
             },
             "effect": {
               "Value": "AA=="
@@ -11806,7 +11806,7 @@
               "Value": "Ag=="
             },
             "font": {
-              "Value": "Eg=="
+              "Value": "FA=="
             },
             "bco": {
               "Value": "AAA="
@@ -11818,7 +11818,7 @@
               "Value": "0P8="
             },
             "pco": {
-              "Value": "4P8="
+              "Value": "wPM="
             },
             "xcen": {
               "Value": "AQ=="
@@ -11830,7 +11830,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "UzI="
+              "Value": "RVJT"
             },
             "txt_maxl": {
               "Value": "HQA="
@@ -11846,14 +11846,14 @@
             }
           },
           "Global": true,
-          "Height": 14,
+          "Height": 67,
           "Id": 48,
-          "Left": 320,
+          "Left": 270,
           "Name": "t2",
-          "Top": 130,
+          "Top": 85,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 24,
+          "Width": 65,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -13051,22 +13051,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "ogA="
+              "Value": "oQA="
             },
             "y": {
-              "Value": "PgA="
+              "Value": "PwA="
             },
             "w": {
               "Value": "KAA="
             },
             "h": {
-              "Value": "HgA="
+              "Value": "FAA="
             },
             "endx": {
-              "Value": "yQA="
+              "Value": "yAA="
             },
             "endy": {
-              "Value": "WwA="
+              "Value": "UgA="
             },
             "effect": {
               "Value": "AA=="
@@ -13136,11 +13136,11 @@
             }
           },
           "Global": true,
-          "Height": 30,
+          "Height": 18,
           "Id": 58,
-          "Left": 162,
+          "Left": 161,
           "Name": "pl",
-          "Top": 62,
+          "Top": 63,
           "Type": "Text",
           "TypeId": 116,
           "Width": 40,
@@ -13180,22 +13180,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "oQA="
+              "Value": "pQA="
             },
             "y": {
-              "Value": "VQA="
+              "Value": "UwA="
             },
             "w": {
-              "Value": "KAA="
+              "Value": "HgA="
             },
             "h": {
-              "Value": "FgA="
+              "Value": "FAA="
             },
             "endx": {
-              "Value": "yAA="
+              "Value": "wgA="
             },
             "endy": {
-              "Value": "agA="
+              "Value": "ZgA="
             },
             "effect": {
               "Value": "AA=="
@@ -13265,14 +13265,14 @@
             }
           },
           "Global": true,
-          "Height": 22,
+          "Height": 15,
           "Id": 59,
-          "Left": 161,
+          "Left": 165,
           "Name": "pls",
-          "Top": 85,
+          "Top": 83,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 40,
+          "Width": 26,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -13414,7 +13414,7 @@
               "Value": "PQ=="
             },
             "objname": {
-              "Value": "dDE="
+              "Value": "dGI="
             },
             "vscope": {
               "Value": "AQ=="
@@ -13526,7 +13526,7 @@
           "Height": 20,
           "Id": 61,
           "Left": 330,
-          "Name": "t1",
+          "Name": "tb",
           "Top": 224,
           "Type": "Text",
           "TypeId": 116,
@@ -13567,7 +13567,7 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "aAE="
+              "Value": "bAE="
             },
             "y": {
               "Value": "4AA="
@@ -13579,7 +13579,7 @@
               "Value": "FQA="
             },
             "endx": {
-              "Value": "ywE="
+              "Value": "zwE="
             },
             "endy": {
               "Value": "9AA="
@@ -13654,12 +13654,12 @@
           "Global": true,
           "Height": 21,
           "Id": 62,
-          "Left": 360,
+          "Left": 364,
           "Name": "teo_lap",
           "Top": 224,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 100,
+          "Width": 96,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -13696,22 +13696,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "FgE="
+              "Value": "DgE="
             },
             "y": {
-              "Value": "PgA="
+              "Value": "PwA="
             },
             "w": {
-              "Value": "KAA="
+              "Value": "MAA="
             },
             "h": {
-              "Value": "HgA="
+              "Value": "FgA="
             },
             "endx": {
               "Value": "PQE="
             },
             "endy": {
-              "Value": "WwA="
+              "Value": "VAA="
             },
             "effect": {
               "Value": "AA=="
@@ -13753,7 +13753,7 @@
               "Value": "0P8="
             },
             "pco": {
-              "Value": "wPM="
+              "Value": "YAY="
             },
             "xcen": {
               "Value": "AQ=="
@@ -13765,7 +13765,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "UElU"
+              "Value": "RFJT"
             },
             "txt_maxl": {
               "Value": "HQA="
@@ -13781,14 +13781,143 @@
             }
           },
           "Global": true,
-          "Height": 35,
+          "Height": 21,
           "Id": 63,
-          "Left": 278,
+          "Left": 270,
           "Name": "t5",
-          "Top": 62,
+          "Top": 63,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 32,
+          "Width": 48,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "QA=="
+            },
+            "objname": {
+              "Value": "dDE1"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "QAE="
+            },
+            "y": {
+              "Value": "ggA="
+            },
+            "w": {
+              "Value": "GAA="
+            },
+            "h": {
+              "Value": "DgA="
+            },
+            "endx": {
+              "Value": "VwE="
+            },
+            "endy": {
+              "Value": "jwA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "Eg=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "4P8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "UzI="
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 16,
+          "Id": 64,
+          "Left": 320,
+          "Name": "t15",
+          "Top": 130,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": -10,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         }
@@ -14061,7 +14190,7 @@
               "Value": "wAA="
             },
             "y": {
-              "Value": "XgA="
+              "Value": "aAA="
             },
             "w": {
               "Value": "XwA="
@@ -14073,7 +14202,7 @@
               "Value": "HgE="
             },
             "endy": {
-              "Value": "ywA="
+              "Value": "1QA="
             },
             "effect": {
               "Value": "AA=="
@@ -14143,11 +14272,11 @@
             }
           },
           "Global": true,
-          "Height": 110,
+          "Height": 100,
           "Id": 2,
           "Left": 192,
           "Name": "gear",
-          "Top": 94,
+          "Top": 104,
           "Type": "Text",
           "TypeId": 116,
           "Width": 95,
@@ -14835,7 +14964,7 @@
               "Value": "zwA="
             },
             "y": {
-              "Value": "zAA="
+              "Value": "1gA="
             },
             "w": {
               "Value": "PgA="
@@ -14847,7 +14976,7 @@
               "Value": "DAE="
             },
             "endy": {
-              "Value": "3wA="
+              "Value": "6QA="
             },
             "effect": {
               "Value": "AA=="
@@ -14917,11 +15046,11 @@
             }
           },
           "Global": true,
-          "Height": 20,
+          "Height": 10,
           "Id": 8,
           "Left": 207,
           "Name": "rpm",
-          "Top": 204,
+          "Top": 214,
           "Type": "Text",
           "TypeId": 116,
           "Width": 62,
@@ -15840,7 +15969,7 @@
               "Value": "EA=="
             },
             "objname": {
-              "Value": "dDEz"
+              "Value": "ZHNi"
             },
             "vscope": {
               "Value": "AQ=="
@@ -15952,7 +16081,7 @@
           "Height": 20,
           "Id": 16,
           "Left": 330,
-          "Name": "t13",
+          "Name": "dsb",
           "Top": 246,
           "Type": "Text",
           "TypeId": 116,
@@ -16122,7 +16251,7 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "aAE="
+              "Value": "bAE="
             },
             "y": {
               "Value": "ywA="
@@ -16134,7 +16263,7 @@
               "Value": "FQA="
             },
             "endx": {
-              "Value": "ywE="
+              "Value": "zwE="
             },
             "endy": {
               "Value": "3wA="
@@ -16209,12 +16338,12 @@
           "Global": true,
           "Height": 21,
           "Id": 18,
-          "Left": 360,
+          "Left": 364,
           "Name": "best_lap",
           "Top": 203,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 100,
+          "Width": 96,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -16251,19 +16380,19 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "hgE="
+              "Value": "gAE="
             },
             "y": {
               "Value": "9AA="
             },
             "w": {
-              "Value": "RgA="
+              "Value": "TgA="
             },
             "h": {
               "Value": "FQA="
             },
             "endx": {
-              "Value": "ywE="
+              "Value": "zQE="
             },
             "endy": {
               "Value": "CAE="
@@ -16320,7 +16449,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "ODguODg4"
+              "Value": "Kzg4Ljg4OA=="
             },
             "txt_maxl": {
               "Value": "CgA="
@@ -16338,12 +16467,12 @@
           "Global": true,
           "Height": 21,
           "Id": 19,
-          "Left": 390,
+          "Left": 384,
           "Name": "delta_ses",
           "Top": 244,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 70,
+          "Width": 84,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -17283,22 +17412,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "ogA="
+              "Value": "oQA="
             },
             "y": {
-              "Value": "PgA="
+              "Value": "PwA="
             },
             "w": {
               "Value": "KAA="
             },
             "h": {
-              "Value": "HgA="
+              "Value": "FAA="
             },
             "endx": {
-              "Value": "yQA="
+              "Value": "yAA="
             },
             "endy": {
-              "Value": "WwA="
+              "Value": "UgA="
             },
             "effect": {
               "Value": "AA=="
@@ -17368,11 +17497,11 @@
             }
           },
           "Global": true,
-          "Height": 30,
+          "Height": 18,
           "Id": 27,
-          "Left": 162,
+          "Left": 161,
           "Name": "pl",
-          "Top": 62,
+          "Top": 63,
           "Type": "Text",
           "TypeId": 116,
           "Width": 40,
@@ -17412,22 +17541,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "oQA="
+              "Value": "pQA="
             },
             "y": {
-              "Value": "VQA="
+              "Value": "UwA="
             },
             "w": {
-              "Value": "KAA="
+              "Value": "HgA="
             },
             "h": {
-              "Value": "FgA="
+              "Value": "FAA="
             },
             "endx": {
-              "Value": "yAA="
+              "Value": "wgA="
             },
             "endy": {
-              "Value": "agA="
+              "Value": "ZgA="
             },
             "effect": {
               "Value": "AA=="
@@ -17497,14 +17626,14 @@
             }
           },
           "Global": true,
-          "Height": 22,
+          "Height": 19,
           "Id": 28,
-          "Left": 161,
+          "Left": 165,
           "Name": "pls",
-          "Top": 85,
+          "Top": 83,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 40,
+          "Width": 25,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -17517,7 +17646,7 @@
               "Value": "HQ=="
             },
             "objname": {
-              "Value": "dDE="
+              "Value": "c2I="
             },
             "vscope": {
               "Value": "AQ=="
@@ -17629,7 +17758,7 @@
           "Height": 20,
           "Id": 29,
           "Left": 330,
-          "Name": "t1",
+          "Name": "sb",
           "Top": 224,
           "Type": "Text",
           "TypeId": 116,
@@ -17670,7 +17799,7 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "aAE="
+              "Value": "bAE="
             },
             "y": {
               "Value": "4AA="
@@ -17682,7 +17811,7 @@
               "Value": "FQA="
             },
             "endx": {
-              "Value": "ywE="
+              "Value": "zwE="
             },
             "endy": {
               "Value": "9AA="
@@ -17757,12 +17886,12 @@
           "Global": true,
           "Height": 21,
           "Id": 30,
-          "Left": 360,
+          "Left": 364,
           "Name": "ses_best",
           "Top": 224,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 100,
+          "Width": 96,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -17773,264 +17902,6 @@
             },
             "id": {
               "Value": "Hw=="
-            },
-            "objname": {
-              "Value": "dDE1"
-            },
-            "vscope": {
-              "Value": "AQ=="
-            },
-            "drag": {
-              "Value": "AA=="
-            },
-            "disup": {
-              "Value": "AA=="
-            },
-            "sendkey": {
-              "Value": "AA=="
-            },
-            "aph": {
-              "Value": "fw=="
-            },
-            "movex": {
-              "Value": "AAA="
-            },
-            "movey": {
-              "Value": "AAA="
-            },
-            "x": {
-              "Value": "BQA="
-            },
-            "y": {
-              "Value": "aAA="
-            },
-            "w": {
-              "Value": "LgA="
-            },
-            "h": {
-              "Value": "FAA="
-            },
-            "endx": {
-              "Value": "MgA="
-            },
-            "endy": {
-              "Value": "ewA="
-            },
-            "effect": {
-              "Value": "AA=="
-            },
-            "first": {
-              "Value": "AA=="
-            },
-            "time": {
-              "Value": "LAE="
-            },
-            "lockobj": {
-              "Value": "AA=="
-            },
-            "sta": {
-              "Value": "AA=="
-            },
-            "style": {
-              "Value": "AA=="
-            },
-            "key": {
-              "Value": "/w=="
-            },
-            "borderc": {
-              "Value": "AAA="
-            },
-            "borderw": {
-              "Value": "Ag=="
-            },
-            "font": {
-              "Value": "FQ=="
-            },
-            "bco": {
-              "Value": "AAA="
-            },
-            "picc": {
-              "Value": "AAA="
-            },
-            "pic": {
-              "Value": "0P8="
-            },
-            "pco": {
-              "Value": "wPM="
-            },
-            "xcen": {
-              "Value": "AQ=="
-            },
-            "ycen": {
-              "Value": "AQ=="
-            },
-            "pw": {
-              "Value": "AA=="
-            },
-            "txt": {
-              "Value": "RU5H"
-            },
-            "txt_maxl": {
-              "Value": "HQA="
-            },
-            "isbr": {
-              "Value": "AQ=="
-            },
-            "spax": {
-              "Value": "AA=="
-            },
-            "spay": {
-              "Value": "AA=="
-            }
-          },
-          "Global": true,
-          "Height": 20,
-          "Id": 31,
-          "Left": 5,
-          "Name": "t15",
-          "Top": 104,
-          "Type": "Text",
-          "TypeId": 116,
-          "Width": 46,
-          "SendComponentIdOnPress": false,
-          "SendComponentIdOnRelease": false
-        },
-        {
-          "Attributes": {
-            "type": {
-              "Value": "dA=="
-            },
-            "id": {
-              "Value": "IA=="
-            },
-            "objname": {
-              "Value": "dDE2"
-            },
-            "vscope": {
-              "Value": "AQ=="
-            },
-            "drag": {
-              "Value": "AA=="
-            },
-            "disup": {
-              "Value": "AA=="
-            },
-            "sendkey": {
-              "Value": "AA=="
-            },
-            "aph": {
-              "Value": "fw=="
-            },
-            "movex": {
-              "Value": "AAA="
-            },
-            "movey": {
-              "Value": "AAA="
-            },
-            "x": {
-              "Value": "BQA="
-            },
-            "y": {
-              "Value": "ggA="
-            },
-            "w": {
-              "Value": "LgA="
-            },
-            "h": {
-              "Value": "FAA="
-            },
-            "endx": {
-              "Value": "MgA="
-            },
-            "endy": {
-              "Value": "lQA="
-            },
-            "effect": {
-              "Value": "AA=="
-            },
-            "first": {
-              "Value": "AA=="
-            },
-            "time": {
-              "Value": "LAE="
-            },
-            "lockobj": {
-              "Value": "AA=="
-            },
-            "sta": {
-              "Value": "AA=="
-            },
-            "style": {
-              "Value": "AA=="
-            },
-            "key": {
-              "Value": "/w=="
-            },
-            "borderc": {
-              "Value": "AAA="
-            },
-            "borderw": {
-              "Value": "Ag=="
-            },
-            "font": {
-              "Value": "FQ=="
-            },
-            "bco": {
-              "Value": "AAA="
-            },
-            "picc": {
-              "Value": "AAA="
-            },
-            "pic": {
-              "Value": "0P8="
-            },
-            "pco": {
-              "Value": "wPM="
-            },
-            "xcen": {
-              "Value": "AQ=="
-            },
-            "ycen": {
-              "Value": "AQ=="
-            },
-            "pw": {
-              "Value": "AA=="
-            },
-            "txt": {
-              "Value": "T0lM"
-            },
-            "txt_maxl": {
-              "Value": "HQA="
-            },
-            "isbr": {
-              "Value": "AQ=="
-            },
-            "spax": {
-              "Value": "AA=="
-            },
-            "spay": {
-              "Value": "AA=="
-            }
-          },
-          "Global": true,
-          "Height": 20,
-          "Id": 32,
-          "Left": 5,
-          "Name": "t16",
-          "Top": 130,
-          "Type": "Text",
-          "TypeId": 116,
-          "Width": 46,
-          "SendComponentIdOnPress": false,
-          "SendComponentIdOnRelease": false
-        },
-        {
-          "Attributes": {
-            "type": {
-              "Value": "dA=="
-            },
-            "id": {
-              "Value": "IQ=="
             },
             "objname": {
               "Value": "dDE4"
@@ -18057,22 +17928,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "BQA="
+              "Value": "AgA="
             },
             "y": {
-              "Value": "oAA="
+              "Value": "VwA="
             },
             "w": {
-              "Value": "LgA="
+              "Value": "JAA="
             },
             "h": {
               "Value": "FAA="
             },
             "endx": {
-              "Value": "MgA="
+              "Value": "JQA="
             },
             "endy": {
-              "Value": "swA="
+              "Value": "agA="
             },
             "effect": {
               "Value": "AA=="
@@ -18143,13 +18014,13 @@
           },
           "Global": true,
           "Height": 20,
-          "Id": 33,
-          "Left": 5,
+          "Id": 31,
+          "Left": 2,
           "Name": "t18",
-          "Top": 160,
+          "Top": 87,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 46,
+          "Width": 36,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -18159,7 +18030,7 @@
               "Value": "dA=="
             },
             "id": {
-              "Value": "Ig=="
+              "Value": "IA=="
             },
             "objname": {
               "Value": "dDE5"
@@ -18186,22 +18057,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "BQA="
+              "Value": "AgA="
             },
             "y": {
-              "Value": "SgA="
+              "Value": "PwA="
             },
             "w": {
-              "Value": "XgA="
+              "Value": "TAA="
             },
             "h": {
-              "Value": "FAA="
+              "Value": "FgA="
             },
             "endx": {
-              "Value": "YgA="
+              "Value": "TQA="
             },
             "endy": {
-              "Value": "XQA="
+              "Value": "VAA="
             },
             "effect": {
               "Value": "AA=="
@@ -18255,7 +18126,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "RlVFTCBwL0xBUA=="
+              "Value": "RlVFTCAvIGxhcA=="
             },
             "txt_maxl": {
               "Value": "HQA="
@@ -18271,14 +18142,14 @@
             }
           },
           "Global": true,
-          "Height": 20,
-          "Id": 34,
-          "Left": 5,
+          "Height": 22,
+          "Id": 32,
+          "Left": 2,
           "Name": "t19",
-          "Top": 74,
+          "Top": 63,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 94,
+          "Width": 76,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -18288,136 +18159,7 @@
               "Value": "dA=="
             },
             "id": {
-              "Value": "Iw=="
-            },
-            "objname": {
-              "Value": "ZW5nX3Q="
-            },
-            "vscope": {
-              "Value": "AQ=="
-            },
-            "drag": {
-              "Value": "AA=="
-            },
-            "disup": {
-              "Value": "AA=="
-            },
-            "sendkey": {
-              "Value": "AA=="
-            },
-            "aph": {
-              "Value": "fw=="
-            },
-            "movex": {
-              "Value": "AAA="
-            },
-            "movey": {
-              "Value": "AAA="
-            },
-            "x": {
-              "Value": "MwA="
-            },
-            "y": {
-              "Value": "agA="
-            },
-            "w": {
-              "Value": "LgA="
-            },
-            "h": {
-              "Value": "FAA="
-            },
-            "endx": {
-              "Value": "YAA="
-            },
-            "endy": {
-              "Value": "fQA="
-            },
-            "effect": {
-              "Value": "AA=="
-            },
-            "first": {
-              "Value": "AA=="
-            },
-            "time": {
-              "Value": "LAE="
-            },
-            "lockobj": {
-              "Value": "AA=="
-            },
-            "sta": {
-              "Value": "AA=="
-            },
-            "style": {
-              "Value": "AA=="
-            },
-            "key": {
-              "Value": "/w=="
-            },
-            "borderc": {
-              "Value": "AAA="
-            },
-            "borderw": {
-              "Value": "Ag=="
-            },
-            "font": {
-              "Value": "FQ=="
-            },
-            "bco": {
-              "Value": "AAA="
-            },
-            "picc": {
-              "Value": "AAA="
-            },
-            "pic": {
-              "Value": "0P8="
-            },
-            "pco": {
-              "Value": "//8="
-            },
-            "xcen": {
-              "Value": "AQ=="
-            },
-            "ycen": {
-              "Value": "AQ=="
-            },
-            "pw": {
-              "Value": "AA=="
-            },
-            "txt": {
-              "Value": "TEFQ"
-            },
-            "txt_maxl": {
-              "Value": "HQA="
-            },
-            "isbr": {
-              "Value": "AQ=="
-            },
-            "spax": {
-              "Value": "AA=="
-            },
-            "spay": {
-              "Value": "AA=="
-            }
-          },
-          "Global": true,
-          "Height": 20,
-          "Id": 35,
-          "Left": 51,
-          "Name": "eng_t",
-          "Top": 106,
-          "Type": "Text",
-          "TypeId": 116,
-          "Width": 46,
-          "SendComponentIdOnPress": false,
-          "SendComponentIdOnRelease": false
-        },
-        {
-          "Attributes": {
-            "type": {
-              "Value": "dA=="
-            },
-            "id": {
-              "Value": "JA=="
+              "Value": "IQ=="
             },
             "objname": {
               "Value": "YWVyb19k"
@@ -18444,664 +18186,19 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "LwA="
-            },
-            "y": {
-              "Value": "oAA="
-            },
-            "w": {
-              "Value": "LAA="
-            },
-            "h": {
-              "Value": "FAA="
-            },
-            "endx": {
-              "Value": "WgA="
-            },
-            "endy": {
-              "Value": "swA="
-            },
-            "effect": {
-              "Value": "AA=="
-            },
-            "first": {
-              "Value": "AA=="
-            },
-            "time": {
-              "Value": "LAE="
-            },
-            "lockobj": {
-              "Value": "AA=="
-            },
-            "sta": {
-              "Value": "AA=="
-            },
-            "style": {
-              "Value": "AA=="
-            },
-            "key": {
-              "Value": "/w=="
-            },
-            "borderc": {
-              "Value": "AAA="
-            },
-            "borderw": {
-              "Value": "Ag=="
-            },
-            "font": {
-              "Value": "FQ=="
-            },
-            "bco": {
-              "Value": "AAA="
-            },
-            "picc": {
-              "Value": "AAA="
-            },
-            "pic": {
-              "Value": "0P8="
-            },
-            "pco": {
-              "Value": "//8="
-            },
-            "xcen": {
-              "Value": "AQ=="
-            },
-            "ycen": {
-              "Value": "AQ=="
-            },
-            "pw": {
-              "Value": "AA=="
-            },
-            "txt": {
-              "Value": "TEFQ"
-            },
-            "txt_maxl": {
-              "Value": "HQA="
-            },
-            "isbr": {
-              "Value": "AQ=="
-            },
-            "spax": {
-              "Value": "AA=="
-            },
-            "spay": {
-              "Value": "AA=="
-            }
-          },
-          "Global": true,
-          "Height": 20,
-          "Id": 36,
-          "Left": 47,
-          "Name": "aero_d",
-          "Top": 160,
-          "Type": "Text",
-          "TypeId": 116,
-          "Width": 44,
-          "SendComponentIdOnPress": false,
-          "SendComponentIdOnRelease": false
-        },
-        {
-          "Attributes": {
-            "type": {
-              "Value": "dA=="
-            },
-            "id": {
-              "Value": "JQ=="
-            },
-            "objname": {
-              "Value": "b2lsX3Q="
-            },
-            "vscope": {
-              "Value": "AQ=="
-            },
-            "drag": {
-              "Value": "AA=="
-            },
-            "disup": {
-              "Value": "AA=="
-            },
-            "sendkey": {
-              "Value": "AA=="
-            },
-            "aph": {
-              "Value": "fw=="
-            },
-            "movex": {
-              "Value": "AAA="
-            },
-            "movey": {
-              "Value": "AAA="
-            },
-            "x": {
-              "Value": "MwA="
-            },
-            "y": {
-              "Value": "ggA="
-            },
-            "w": {
-              "Value": "LgA="
-            },
-            "h": {
-              "Value": "FAA="
-            },
-            "endx": {
-              "Value": "YAA="
-            },
-            "endy": {
-              "Value": "lQA="
-            },
-            "effect": {
-              "Value": "AA=="
-            },
-            "first": {
-              "Value": "AA=="
-            },
-            "time": {
-              "Value": "LAE="
-            },
-            "lockobj": {
-              "Value": "AA=="
-            },
-            "sta": {
-              "Value": "AA=="
-            },
-            "style": {
-              "Value": "AA=="
-            },
-            "key": {
-              "Value": "/w=="
-            },
-            "borderc": {
-              "Value": "AAA="
-            },
-            "borderw": {
-              "Value": "Ag=="
-            },
-            "font": {
-              "Value": "FQ=="
-            },
-            "bco": {
-              "Value": "AAA="
-            },
-            "picc": {
-              "Value": "AAA="
-            },
-            "pic": {
-              "Value": "0P8="
-            },
-            "pco": {
-              "Value": "//8="
-            },
-            "xcen": {
-              "Value": "AQ=="
-            },
-            "ycen": {
-              "Value": "AQ=="
-            },
-            "pw": {
-              "Value": "AA=="
-            },
-            "txt": {
-              "Value": "TEFQ"
-            },
-            "txt_maxl": {
-              "Value": "HQA="
-            },
-            "isbr": {
-              "Value": "AQ=="
-            },
-            "spax": {
-              "Value": "AA=="
-            },
-            "spay": {
-              "Value": "AA=="
-            }
-          },
-          "Global": true,
-          "Height": 20,
-          "Id": 37,
-          "Left": 51,
-          "Name": "oil_t",
-          "Top": 130,
-          "Type": "Text",
-          "TypeId": 116,
-          "Width": 46,
-          "SendComponentIdOnPress": false,
-          "SendComponentIdOnRelease": false
-        },
-        {
-          "Attributes": {
-            "type": {
-              "Value": "dA=="
-            },
-            "id": {
-              "Value": "Jg=="
-            },
-            "objname": {
-              "Value": "ZnVlbF9sYXA="
-            },
-            "vscope": {
-              "Value": "AQ=="
-            },
-            "drag": {
-              "Value": "AA=="
-            },
-            "disup": {
-              "Value": "AA=="
-            },
-            "sendkey": {
-              "Value": "AA=="
-            },
-            "aph": {
-              "Value": "fw=="
-            },
-            "movex": {
-              "Value": "AAA="
-            },
-            "movey": {
-              "Value": "AAA="
-            },
-            "x": {
-              "Value": "aAA="
-            },
-            "y": {
-              "Value": "SgA="
-            },
-            "w": {
-              "Value": "LgA="
-            },
-            "h": {
-              "Value": "FAA="
-            },
-            "endx": {
-              "Value": "lQA="
-            },
-            "endy": {
-              "Value": "XQA="
-            },
-            "effect": {
-              "Value": "AA=="
-            },
-            "first": {
-              "Value": "AA=="
-            },
-            "time": {
-              "Value": "LAE="
-            },
-            "lockobj": {
-              "Value": "AA=="
-            },
-            "sta": {
-              "Value": "AA=="
-            },
-            "style": {
-              "Value": "AA=="
-            },
-            "key": {
-              "Value": "/w=="
-            },
-            "borderc": {
-              "Value": "AAA="
-            },
-            "borderw": {
-              "Value": "Ag=="
-            },
-            "font": {
-              "Value": "FQ=="
-            },
-            "bco": {
-              "Value": "AAA="
-            },
-            "picc": {
-              "Value": "AAA="
-            },
-            "pic": {
-              "Value": "0P8="
-            },
-            "pco": {
-              "Value": "//8="
-            },
-            "xcen": {
-              "Value": "AQ=="
-            },
-            "ycen": {
-              "Value": "AQ=="
-            },
-            "pw": {
-              "Value": "AA=="
-            },
-            "txt": {
-              "Value": "TEFQ"
-            },
-            "txt_maxl": {
-              "Value": "HQA="
-            },
-            "isbr": {
-              "Value": "AQ=="
-            },
-            "spax": {
-              "Value": "AA=="
-            },
-            "spay": {
-              "Value": "AA=="
-            }
-          },
-          "Global": true,
-          "Height": 20,
-          "Id": 38,
-          "Left": 104,
-          "Name": "fuel_lap",
-          "Top": 74,
-          "Type": "Text",
-          "TypeId": 116,
-          "Width": 46,
-          "SendComponentIdOnPress": false,
-          "SendComponentIdOnRelease": false
-        },
-        {
-          "Attributes": {
-            "type": {
-              "Value": "dA=="
-            },
-            "id": {
-              "Value": "Jw=="
-            },
-            "objname": {
-              "Value": "ZW5nX2Q="
-            },
-            "vscope": {
-              "Value": "AQ=="
-            },
-            "drag": {
-              "Value": "AA=="
-            },
-            "disup": {
-              "Value": "AA=="
-            },
-            "sendkey": {
-              "Value": "AA=="
-            },
-            "aph": {
-              "Value": "fw=="
-            },
-            "movex": {
-              "Value": "AAA="
-            },
-            "movey": {
-              "Value": "AAA="
-            },
-            "x": {
-              "Value": "VAA="
-            },
-            "y": {
-              "Value": "oAA="
-            },
-            "w": {
-              "Value": "LAA="
-            },
-            "h": {
-              "Value": "FAA="
-            },
-            "endx": {
-              "Value": "fwA="
-            },
-            "endy": {
-              "Value": "swA="
-            },
-            "effect": {
-              "Value": "AA=="
-            },
-            "first": {
-              "Value": "AA=="
-            },
-            "time": {
-              "Value": "LAE="
-            },
-            "lockobj": {
-              "Value": "AA=="
-            },
-            "sta": {
-              "Value": "AA=="
-            },
-            "style": {
-              "Value": "AA=="
-            },
-            "key": {
-              "Value": "/w=="
-            },
-            "borderc": {
-              "Value": "AAA="
-            },
-            "borderw": {
-              "Value": "Ag=="
-            },
-            "font": {
-              "Value": "FQ=="
-            },
-            "bco": {
-              "Value": "AAA="
-            },
-            "picc": {
-              "Value": "AAA="
-            },
-            "pic": {
-              "Value": "0P8="
-            },
-            "pco": {
-              "Value": "//8="
-            },
-            "xcen": {
-              "Value": "AQ=="
-            },
-            "ycen": {
-              "Value": "AQ=="
-            },
-            "pw": {
-              "Value": "AA=="
-            },
-            "txt": {
-              "Value": "TEFQ"
-            },
-            "txt_maxl": {
-              "Value": "HQA="
-            },
-            "isbr": {
-              "Value": "AQ=="
-            },
-            "spax": {
-              "Value": "AA=="
-            },
-            "spay": {
-              "Value": "AA=="
-            }
-          },
-          "Global": true,
-          "Height": 20,
-          "Id": 39,
-          "Left": 84,
-          "Name": "eng_d",
-          "Top": 160,
-          "Type": "Text",
-          "TypeId": 116,
-          "Width": 44,
-          "SendComponentIdOnPress": false,
-          "SendComponentIdOnRelease": false
-        },
-        {
-          "Attributes": {
-            "type": {
-              "Value": "dA=="
-            },
-            "id": {
-              "Value": "KA=="
-            },
-            "objname": {
-              "Value": "b3ZyX2Q="
-            },
-            "vscope": {
-              "Value": "AQ=="
-            },
-            "drag": {
-              "Value": "AA=="
-            },
-            "disup": {
-              "Value": "AA=="
-            },
-            "sendkey": {
-              "Value": "AA=="
-            },
-            "aph": {
-              "Value": "fw=="
-            },
-            "movex": {
-              "Value": "AAA="
-            },
-            "movey": {
-              "Value": "AAA="
-            },
-            "x": {
-              "Value": "eAA="
-            },
-            "y": {
-              "Value": "oAA="
-            },
-            "w": {
-              "Value": "LAA="
-            },
-            "h": {
-              "Value": "FAA="
-            },
-            "endx": {
-              "Value": "owA="
-            },
-            "endy": {
-              "Value": "swA="
-            },
-            "effect": {
-              "Value": "AA=="
-            },
-            "first": {
-              "Value": "AA=="
-            },
-            "time": {
-              "Value": "LAE="
-            },
-            "lockobj": {
-              "Value": "AA=="
-            },
-            "sta": {
-              "Value": "AA=="
-            },
-            "style": {
-              "Value": "AA=="
-            },
-            "key": {
-              "Value": "/w=="
-            },
-            "borderc": {
-              "Value": "AAA="
-            },
-            "borderw": {
-              "Value": "Ag=="
-            },
-            "font": {
-              "Value": "FQ=="
-            },
-            "bco": {
-              "Value": "AAA="
-            },
-            "picc": {
-              "Value": "AAA="
-            },
-            "pic": {
-              "Value": "0P8="
-            },
-            "pco": {
-              "Value": "//8="
-            },
-            "xcen": {
-              "Value": "AQ=="
-            },
-            "ycen": {
-              "Value": "AQ=="
-            },
-            "pw": {
-              "Value": "AA=="
-            },
-            "txt": {
-              "Value": "TEFQ"
-            },
-            "txt_maxl": {
-              "Value": "HQA="
-            },
-            "isbr": {
-              "Value": "AQ=="
-            },
-            "spax": {
-              "Value": "AA=="
-            },
-            "spay": {
-              "Value": "AA=="
-            }
-          },
-          "Global": true,
-          "Height": 20,
-          "Id": 40,
-          "Left": 120,
-          "Name": "ovr_d",
-          "Top": 160,
-          "Type": "Text",
-          "TypeId": 116,
-          "Width": 44,
-          "SendComponentIdOnPress": false,
-          "SendComponentIdOnRelease": false
-        },
-        {
-          "Attributes": {
-            "type": {
-              "Value": "dA=="
-            },
-            "id": {
-              "Value": "KQ=="
-            },
-            "objname": {
-              "Value": "YWg="
-            },
-            "vscope": {
-              "Value": "AQ=="
-            },
-            "drag": {
-              "Value": "AA=="
-            },
-            "disup": {
-              "Value": "AA=="
-            },
-            "sendkey": {
-              "Value": "AA=="
-            },
-            "aph": {
-              "Value": "fw=="
-            },
-            "movex": {
-              "Value": "AAA="
-            },
-            "movey": {
-              "Value": "AAA="
-            },
-            "x": {
-              "Value": "QAE="
+              "Value": "EQA="
             },
             "y": {
               "Value": "aAA="
             },
             "w": {
-              "Value": "PAA="
+              "Value": "HAA="
             },
             "h": {
               "Value": "FAA="
             },
             "endx": {
-              "Value": "ewE="
+              "Value": "LAA="
             },
             "endy": {
               "Value": "ewA="
@@ -19134,6 +18231,522 @@
               "Value": "Ag=="
             },
             "font": {
+              "Value": "Fg=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "//8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "ODg4"
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 20,
+          "Id": 33,
+          "Left": 17,
+          "Name": "aero_d",
+          "Top": 104,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 28,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Ig=="
+            },
+            "objname": {
+              "Value": "ZnVlbF9sYXA="
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "TgA="
+            },
+            "y": {
+              "Value": "QQA="
+            },
+            "w": {
+              "Value": "HgA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "awA="
+            },
+            "endy": {
+              "Value": "VAA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "//8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "MC4w"
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 20,
+          "Id": 34,
+          "Left": 78,
+          "Name": "fuel_lap",
+          "Top": 65,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 30,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Iw=="
+            },
+            "objname": {
+              "Value": "ZW5nX2Q="
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "PQA="
+            },
+            "y": {
+              "Value": "aAA="
+            },
+            "w": {
+              "Value": "HAA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "WAA="
+            },
+            "endy": {
+              "Value": "ewA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "//8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "ODg4"
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 20,
+          "Id": 35,
+          "Left": 61,
+          "Name": "eng_d",
+          "Top": 104,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 28,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "JA=="
+            },
+            "objname": {
+              "Value": "b3ZyX2Q="
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "JwA="
+            },
+            "y": {
+              "Value": "VwA="
+            },
+            "w": {
+              "Value": "HgA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "RAA="
+            },
+            "endy": {
+              "Value": "agA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "//8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "ODg4"
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 20,
+          "Id": 36,
+          "Left": 39,
+          "Name": "ovr_d",
+          "Top": 87,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 30,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "JQ=="
+            },
+            "objname": {
+              "Value": "YWg="
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "bAE="
+            },
+            "y": {
+              "Value": "ZAA="
+            },
+            "w": {
+              "Value": "KAA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "kwE="
+            },
+            "endy": {
+              "Value": "dwA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
               "Value": "Eg=="
             },
             "bco": {
@@ -19158,7 +18771,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "QWhlYWQ="
+              "Value": "UCA4OA=="
             },
             "txt_maxl": {
               "Value": "HQA="
@@ -19174,14 +18787,14 @@
             }
           },
           "Global": true,
-          "Height": 20,
-          "Id": 41,
-          "Left": 320,
+          "Height": 24,
+          "Id": 37,
+          "Left": 364,
           "Name": "ah",
-          "Top": 104,
+          "Top": 100,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 60,
+          "Width": -4,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -19191,7 +18804,7 @@
               "Value": "dA=="
             },
             "id": {
-              "Value": "Kg=="
+              "Value": "Jg=="
             },
             "objname": {
               "Value": "YWVfZ2Fw"
@@ -19218,22 +18831,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "ggE="
+              "Value": "kAE="
             },
             "y": {
-              "Value": "ZAA="
+              "Value": "YAA="
             },
             "w": {
               "Value": "RgA="
             },
             "h": {
-              "Value": "GgA="
+              "Value": "FgA="
             },
             "endx": {
-              "Value": "xwE="
+              "Value": "1QE="
             },
             "endy": {
-              "Value": "fQA="
+              "Value": "dQA="
             },
             "effect": {
               "Value": "AA=="
@@ -19304,13 +18917,13 @@
           },
           "Global": true,
           "Height": 26,
-          "Id": 42,
-          "Left": 386,
+          "Id": 38,
+          "Left": 400,
           "Name": "ae_gap",
-          "Top": 100,
+          "Top": 96,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 70,
+          "Width": 56,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -19320,7 +18933,7 @@
               "Value": "dA=="
             },
             "id": {
-              "Value": "Kw=="
+              "Value": "Jw=="
             },
             "objname": {
               "Value": "YmU="
@@ -19347,22 +18960,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "QAE="
+              "Value": "bAE="
             },
             "y": {
-              "Value": "gAA="
+              "Value": "eQA="
             },
             "w": {
-              "Value": "PAA="
+              "Value": "KAA="
             },
             "h": {
               "Value": "FAA="
             },
             "endx": {
-              "Value": "ewE="
+              "Value": "kwE="
             },
             "endy": {
-              "Value": "kwA="
+              "Value": "jAA="
             },
             "effect": {
               "Value": "AA=="
@@ -19416,7 +19029,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "QmVoaW5k"
+              "Value": "UCA4OA=="
             },
             "txt_maxl": {
               "Value": "HQA="
@@ -19432,14 +19045,14 @@
             }
           },
           "Global": true,
-          "Height": 20,
-          "Id": 43,
-          "Left": 320,
+          "Height": 27,
+          "Id": 39,
+          "Left": 364,
           "Name": "be",
-          "Top": 128,
+          "Top": 121,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 60,
+          "Width": -4,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -19449,7 +19062,7 @@
               "Value": "dA=="
             },
             "id": {
-              "Value": "LA=="
+              "Value": "KA=="
             },
             "objname": {
               "Value": "YmVfdGltZQ=="
@@ -19476,22 +19089,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "ggE="
+              "Value": "kAE="
             },
             "y": {
-              "Value": "fAA="
+              "Value": "dQA="
             },
             "w": {
               "Value": "RgA="
             },
             "h": {
-              "Value": "GgA="
+              "Value": "FgA="
             },
             "endx": {
-              "Value": "xwE="
+              "Value": "1QE="
             },
             "endy": {
-              "Value": "lQA="
+              "Value": "igA="
             },
             "effect": {
               "Value": "AA=="
@@ -19561,14 +19174,14 @@
             }
           },
           "Global": true,
-          "Height": 26,
-          "Id": 44,
-          "Left": 386,
+          "Height": 29,
+          "Id": 40,
+          "Left": 400,
           "Name": "be_time",
-          "Top": 124,
+          "Top": 117,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 70,
+          "Width": 30,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -19578,10 +19191,10 @@
               "Value": "dA=="
             },
             "id": {
-              "Value": "LQ=="
+              "Value": "KQ=="
             },
             "objname": {
-              "Value": "Ym94"
+              "Value": "dDU="
             },
             "vscope": {
               "Value": "AQ=="
@@ -19605,19 +19218,892 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "QAE="
+              "Value": "DgE="
             },
             "y": {
-              "Value": "mAA="
+              "Value": "PwA="
             },
             "w": {
-              "Value": "RgA="
+              "Value": "MAA="
+            },
+            "h": {
+              "Value": "FgA="
+            },
+            "endx": {
+              "Value": "PQE="
+            },
+            "endy": {
+              "Value": "VAA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FA=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "YAY="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "RFJT"
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 21,
+          "Id": 41,
+          "Left": 270,
+          "Name": "t5",
+          "Top": 63,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 48,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Kg=="
+            },
+            "objname": {
+              "Value": "dDc="
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "AgA="
+            },
+            "y": {
+              "Value": "rgA="
+            },
+            "w": {
+              "Value": "MgA="
             },
             "h": {
               "Value": "FAA="
             },
             "endx": {
-              "Value": "hQE="
+              "Value": "MwA="
+            },
+            "endy": {
+              "Value": "wQA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "wPM="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "TU9ERQ=="
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 18,
+          "Id": 42,
+          "Left": 2,
+          "Name": "t7",
+          "Top": 174,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 50,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Kw=="
+            },
+            "objname": {
+              "Value": "dDEy"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "BAA="
+            },
+            "y": {
+              "Value": "iAA="
+            },
+            "w": {
+              "Value": "IgA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "JQA="
+            },
+            "endy": {
+              "Value": "mwA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "wPM="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "RVJT"
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 20,
+          "Id": 43,
+          "Left": 4,
+          "Name": "t12",
+          "Top": 136,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 34,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "LA=="
+            },
+            "objname": {
+              "Value": "dDE3"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "AgA="
+            },
+            "y": {
+              "Value": "aAA="
+            },
+            "w": {
+              "Value": "EAA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "EQA="
+            },
+            "endy": {
+              "Value": "ewA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "wPM="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "YQ=="
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 20,
+          "Id": 44,
+          "Left": 2,
+          "Name": "t17",
+          "Top": 104,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 16,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "LQ=="
+            },
+            "objname": {
+              "Value": "dDIw"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "LgA="
+            },
+            "y": {
+              "Value": "aAA="
+            },
+            "w": {
+              "Value": "EAA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "PQA="
+            },
+            "endy": {
+              "Value": "ewA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "wPM="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "ZQ=="
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 20,
+          "Id": 45,
+          "Left": 46,
+          "Name": "t20",
+          "Top": 104,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 16,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Lg=="
+            },
+            "objname": {
+              "Value": "dDIy"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "NAA="
+            },
+            "y": {
+              "Value": "rgA="
+            },
+            "w": {
+              "Value": "TgA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "gQA="
+            },
+            "endy": {
+              "Value": "wQA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "//8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "QkFMQU5DRUQ="
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 18,
+          "Id": 46,
+          "Left": 52,
+          "Name": "t22",
+          "Top": 174,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 112,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "ag=="
+            },
+            "id": {
+              "Value": "Lw=="
+            },
+            "objname": {
+              "Value": "ajA="
+            },
+            "vscope": {
+              "Value": "AA=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "LgA="
+            },
+            "y": {
+              "Value": "iwA="
+            },
+            "w": {
+              "Value": "bAA="
+            },
+            "h": {
+              "Value": "HgA="
+            },
+            "endx": {
+              "Value": "mQA="
+            },
+            "endy": {
+              "Value": "qAA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "dez": {
+              "Value": "AA=="
+            },
+            "val": {
+              "Value": "Mg=="
+            },
+            "dis": {
+              "Value": "GQ=="
+            },
+            "bco": {
+              "Value": "ilI="
+            },
+            "bpic": {
+              "Value": "//8="
+            },
+            "pco": {
+              "Value": "4P8="
+            },
+            "ppic": {
+              "Value": "//8="
+            }
+          },
+          "Global": false,
+          "Height": 30,
+          "Id": 47,
+          "Left": 46,
+          "Name": "j0",
+          "Top": 139,
+          "Type": "ProgressBar",
+          "TypeId": 106,
+          "Width": 104,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "MA=="
+            },
+            "objname": {
+              "Value": "dDE="
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "BAA="
+            },
+            "y": {
+              "Value": "mAA="
+            },
+            "w": {
+              "Value": "KAA="
+            },
+            "h": {
+              "Value": "FAA="
+            },
+            "endx": {
+              "Value": "KwA="
             },
             "endy": {
               "Value": "qwA="
@@ -19662,7 +20148,7 @@
               "Value": "0P8="
             },
             "pco": {
-              "Value": "4P8="
+              "Value": "//8="
             },
             "xcen": {
               "Value": "AQ=="
@@ -19674,7 +20160,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "Qk9YIExBUA=="
+              "Value": "ODg4JQ=="
             },
             "txt_maxl": {
               "Value": "HQA="
@@ -19691,13 +20177,13 @@
           },
           "Global": true,
           "Height": 20,
-          "Id": 45,
-          "Left": 320,
-          "Name": "box",
+          "Id": 48,
+          "Left": 4,
+          "Name": "t1",
           "Top": 152,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 70,
+          "Width": 40,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         },
@@ -19707,10 +20193,10 @@
               "Value": "dA=="
             },
             "id": {
-              "Value": "Lg=="
+              "Value": "MQ=="
             },
             "objname": {
-              "Value": "Ymw="
+              "Value": "dDI="
             },
             "vscope": {
               "Value": "AQ=="
@@ -19734,22 +20220,22 @@
               "Value": "AAA="
             },
             "x": {
-              "Value": "jAE="
+              "Value": "DgE="
             },
             "y": {
-              "Value": "lAA="
+              "Value": "VQA="
             },
             "w": {
-              "Value": "HgA="
+              "Value": "MAA="
             },
             "h": {
-              "Value": "FAA="
+              "Value": "FgA="
             },
             "endx": {
-              "Value": "qQE="
+              "Value": "PQE="
             },
             "endy": {
-              "Value": "pwA="
+              "Value": "agA="
             },
             "effect": {
               "Value": "AA=="
@@ -19791,7 +20277,7 @@
               "Value": "0P8="
             },
             "pco": {
-              "Value": "//8="
+              "Value": "wPM="
             },
             "xcen": {
               "Value": "AQ=="
@@ -19803,7 +20289,7 @@
               "Value": "AA=="
             },
             "txt": {
-              "Value": "ODg="
+              "Value": "RVJT"
             },
             "txt_maxl": {
               "Value": "HQA="
@@ -19819,14 +20305,788 @@
             }
           },
           "Global": true,
-          "Height": 20,
-          "Id": 46,
-          "Left": 396,
-          "Name": "bl",
-          "Top": 148,
+          "Height": 22,
+          "Id": 49,
+          "Left": 270,
+          "Name": "t2",
+          "Top": 85,
           "Type": "Text",
           "TypeId": 116,
-          "Width": 30,
+          "Width": 48,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Mg=="
+            },
+            "objname": {
+              "Value": "dDEz"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "QAE="
+            },
+            "y": {
+              "Value": "kwA="
+            },
+            "w": {
+              "Value": "GAA="
+            },
+            "h": {
+              "Value": "EAA="
+            },
+            "endx": {
+              "Value": "VwE="
+            },
+            "endy": {
+              "Value": "ogA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "Eg=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "4P8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "UzE="
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 16,
+          "Id": 50,
+          "Left": 320,
+          "Name": "t13",
+          "Top": 147,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 24,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Mw=="
+            },
+            "objname": {
+              "Value": "dDE1"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "QAE="
+            },
+            "y": {
+              "Value": "owA="
+            },
+            "w": {
+              "Value": "GAA="
+            },
+            "h": {
+              "Value": "EAA="
+            },
+            "endx": {
+              "Value": "VwE="
+            },
+            "endy": {
+              "Value": "sgA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "Eg=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "4P8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "UzI="
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 17,
+          "Id": 51,
+          "Left": 320,
+          "Name": "t15",
+          "Top": 163,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 24,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "NA=="
+            },
+            "objname": {
+              "Value": "dDE2"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "QAE="
+            },
+            "y": {
+              "Value": "swA="
+            },
+            "w": {
+              "Value": "GAA="
+            },
+            "h": {
+              "Value": "DgA="
+            },
+            "endx": {
+              "Value": "VwE="
+            },
+            "endy": {
+              "Value": "wAA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "Eg=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "0P8="
+            },
+            "pco": {
+              "Value": "4P8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "UzM="
+            },
+            "txt_maxl": {
+              "Value": "HQA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 15,
+          "Id": 52,
+          "Left": 320,
+          "Name": "t16",
+          "Top": 179,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 68,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "NQ=="
+            },
+            "objname": {
+              "Value": "dDIx"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "WAE="
+            },
+            "y": {
+              "Value": "kgA="
+            },
+            "w": {
+              "Value": "PAA="
+            },
+            "h": {
+              "Value": "DgA="
+            },
+            "endx": {
+              "Value": "kwE="
+            },
+            "endy": {
+              "Value": "nwA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "4/8="
+            },
+            "pco": {
+              "Value": "//8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "Kzg4Ljg4OA=="
+            },
+            "txt_maxl": {
+              "Value": "CgA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 14,
+          "Id": 53,
+          "Left": 344,
+          "Name": "t21",
+          "Top": 146,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 60,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Ng=="
+            },
+            "objname": {
+              "Value": "dDIz"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "WAE="
+            },
+            "y": {
+              "Value": "owA="
+            },
+            "w": {
+              "Value": "PAA="
+            },
+            "h": {
+              "Value": "DgA="
+            },
+            "endx": {
+              "Value": "kwE="
+            },
+            "endy": {
+              "Value": "sAA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "4/8="
+            },
+            "pco": {
+              "Value": "//8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "Kzg4Ljg4OA=="
+            },
+            "txt_maxl": {
+              "Value": "CgA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 14,
+          "Id": 54,
+          "Left": 344,
+          "Name": "t23",
+          "Top": 163,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 60,
+          "SendComponentIdOnPress": false,
+          "SendComponentIdOnRelease": false
+        },
+        {
+          "Attributes": {
+            "type": {
+              "Value": "dA=="
+            },
+            "id": {
+              "Value": "Nw=="
+            },
+            "objname": {
+              "Value": "dDI0"
+            },
+            "vscope": {
+              "Value": "AQ=="
+            },
+            "drag": {
+              "Value": "AA=="
+            },
+            "disup": {
+              "Value": "AA=="
+            },
+            "sendkey": {
+              "Value": "AA=="
+            },
+            "aph": {
+              "Value": "fw=="
+            },
+            "movex": {
+              "Value": "AAA="
+            },
+            "movey": {
+              "Value": "AAA="
+            },
+            "x": {
+              "Value": "WAE="
+            },
+            "y": {
+              "Value": "swA="
+            },
+            "w": {
+              "Value": "PAA="
+            },
+            "h": {
+              "Value": "DgA="
+            },
+            "endx": {
+              "Value": "kwE="
+            },
+            "endy": {
+              "Value": "wAA="
+            },
+            "effect": {
+              "Value": "AA=="
+            },
+            "first": {
+              "Value": "AA=="
+            },
+            "time": {
+              "Value": "LAE="
+            },
+            "lockobj": {
+              "Value": "AA=="
+            },
+            "sta": {
+              "Value": "AA=="
+            },
+            "style": {
+              "Value": "AA=="
+            },
+            "key": {
+              "Value": "/w=="
+            },
+            "borderc": {
+              "Value": "AAA="
+            },
+            "borderw": {
+              "Value": "Ag=="
+            },
+            "font": {
+              "Value": "FQ=="
+            },
+            "bco": {
+              "Value": "AAA="
+            },
+            "picc": {
+              "Value": "AAA="
+            },
+            "pic": {
+              "Value": "4/8="
+            },
+            "pco": {
+              "Value": "//8="
+            },
+            "xcen": {
+              "Value": "AQ=="
+            },
+            "ycen": {
+              "Value": "AQ=="
+            },
+            "pw": {
+              "Value": "AA=="
+            },
+            "txt": {
+              "Value": "Kzg4Ljg4OA=="
+            },
+            "txt_maxl": {
+              "Value": "CgA="
+            },
+            "isbr": {
+              "Value": "AQ=="
+            },
+            "spax": {
+              "Value": "AA=="
+            },
+            "spay": {
+              "Value": "AA=="
+            }
+          },
+          "Global": true,
+          "Height": 14,
+          "Id": 55,
+          "Left": 344,
+          "Name": "t24",
+          "Top": 179,
+          "Type": "Text",
+          "TypeId": 116,
+          "Width": 60,
           "SendComponentIdOnPress": false,
           "SendComponentIdOnRelease": false
         }
