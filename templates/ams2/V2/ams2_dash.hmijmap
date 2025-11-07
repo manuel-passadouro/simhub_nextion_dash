@@ -15,7 +15,7 @@
     "global.fuel.txt": {
       "FormatString": "",
       "Formula": {
-        "Expression": "format(isnull([Fuel],0),'0.0')"
+        "Expression": "format(isnull([DataCorePlugin.Computed.Fuel_RemainingLaps],0),'0.0')"
       },
       "Mode": 2
     },
@@ -367,7 +367,7 @@
     },
     "global.pos.txt": {
       "Formula": {
-        "Expression": "format([Position],'0')+ '/' + format([PlayerClassOpponentsCount],'0')"
+        "Expression": "format(driverclassposition([Position]),'0')+ '/' + format([PlayerClassOpponentsCount],'0')"
       },
       "Mode": 2
     },
@@ -785,7 +785,7 @@
     },
     "global.pl.pco": {
       "Formula": {
-        "Expression": "if([GameRawData.mPitSchedule]==1 && [PitLimiterOn]==0,\r\n    62400,\r\n    if([PitLimiterOn],\r\n        31,\r\n        if([GameRawData.mPitMode] != 0,\r\n            0 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (31 - 0),\r\n            0\r\n        )\r\n    )\r\n)\r\n"
+        "Expression": "if(([GameRawData.mPitSchedule] || [CarSettings_FuelAlertActive]) && [PitLimiterOn]==0,\r\n    62400,\r\n    if([PitLimiterOn],\r\n        31,\r\n        if([GameRawData.mPitMode] != 0,\r\n            0 + (floor(format([DataCorePlugin.CurrentDateTime], 'fff') / 500) % 2) * (31 - 0),\r\n            0\r\n        )\r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
@@ -824,7 +824,7 @@
     },
     "global.delta_teo.pco": {
       "Formula": {
-        "Expression": "if(\r\n    isnull(timespantoseconds([BestLapTime])) ||\r\n    isnull(timespantoseconds([Sector1BestLapTime])) ||\r\n    isnull(timespantoseconds([Sector2BestLapTime])) ||\r\n    isnull(timespantoseconds([Sector3BestLapTime])) ||\r\n    timespantoseconds([BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector1BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector2BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector3BestLapTime]) == 0,\r\n    65535,\r\n    if(\r\n        (if(isnull(timespantoseconds([BestLapTime])), 0, timespantoseconds([BestLapTime]))) -\r\n        (\r\n            (if(isnull(timespantoseconds([Sector1BestLapTime])), 0, timespantoseconds([Sector1BestLapTime]))) +\r\n            (if(isnull(timespantoseconds([Sector2BestLapTime])), 0, timespantoseconds([Sector2BestLapTime]))) +\r\n            (if(isnull(timespantoseconds([Sector3BestLapTime])), 0, timespantoseconds([Sector3BestLapTime])))\r\n        ) <= 0,\r\n        2016,\r\n        63943\r\n    )\r\n)\r\n"
+        "Expression": "if(\r\n    isnull(timespantoseconds([BestLapTime])) ||\r\n    isnull(timespantoseconds([Sector1BestLapTime])) ||\r\n    isnull(timespantoseconds([Sector2BestLapTime])) ||\r\n    isnull(timespantoseconds([Sector3BestLapTime])) ||\r\n    timespantoseconds([BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector1BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector2BestLapTime]) == 0 ||\r\n    timespantoseconds([Sector3BestLapTime]) == 0,\r\n    65535,\r\n    if(\r\n        (if(isnull(timespantoseconds([BestLapTime])), 0, timespantoseconds([BestLapTime]))) -\r\n        (\r\n            (if(isnull(timespantoseconds([Sector1BestLapTime])), 0, timespantoseconds([Sector1BestLapTime]))) +\r\n            (if(isnull(timespantoseconds([Sector2BestLapTime])), 0, timespantoseconds([Sector2BestLapTime]))) +\r\n            (if(isnull(timespantoseconds([Sector3BestLapTime])), 0, timespantoseconds([Sector3BestLapTime])))\r\n        ) <= 0,\r\n        63943,\r\n        63943\r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
