@@ -871,7 +871,7 @@
     "global.ae_gap.txt": {
       "FormatString": "0.0",
       "Formula": {
-        "Expression": "if(\r\n    [SessionTypeName] == 'Race',\r\n    if(\r\n        isnull(drivergaptoplayer(\r\n            if(\r\n                getopponentleaderboardposition_aheadbehind_playerclassonly(-1) < 1,\r\n                0,\r\n                getopponentleaderboardposition_aheadbehind_playerclassonly(-1)\r\n            )\r\n        )),\r\n        '-',\r\n        abs(drivergaptoplayer(\r\n            if(\r\n                getopponentleaderboardposition_aheadbehind_playerclassonly(-1) < 1,\r\n                0,\r\n                getopponentleaderboardposition_aheadbehind_playerclassonly(-1)\r\n            )\r\n        ))\r\n    ),\r\n    if(\r\n        isnull(drivergaptoplayer(\r\n            if(\r\n                ([Position] - 1) < 1,\r\n                0,\r\n                [Position] - 1\r\n            )\r\n        )),\r\n        '-',\r\n        format(\r\n            abs(drivergaptoplayer(\r\n                if(\r\n                    ([Position] - 1) < 1,\r\n                    0,\r\n                    [Position] - 1\r\n                )\r\n            )),\r\n            '0.000'\r\n        )\r\n    )\r\n)\r\n"
+        "Expression": "if(\r\n    [SessionTypeName] == 'RACE',\r\n    if(\r\n        isnull(drivergaptoplayer(\r\n            if(\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])-1) < 1,\r\n                0,\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])-1)\r\n            )\r\n        )),\r\n        '-',\r\n        abs(drivergaptoplayer(\r\n            if(\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])-1) < 1,\r\n                0,\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])-1)\r\n            )\r\n        ))\r\n    ),\r\n    if(\r\n        isnull(driverdeltatoplayer( \r\n            if(\r\n                (getopponentleaderboardposition_playerclassonly(driverclassposition([Position])-1)) < 1,\r\n                0,\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])-1)\r\n            )\r\n        )),\r\n        '-',\r\n        format(\r\n            abs(driverdeltatoplayer(\r\n                if(\r\n                    (getopponentleaderboardposition_playerclassonly(driverclassposition([Position])-1)) < 1,\r\n                    0,\r\n                    getopponentleaderboardposition_playerclassonly(driverclassposition([Position])-1)\r\n                )\r\n            )),\r\n            '0.000'\r\n        )\r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
@@ -884,13 +884,13 @@
     "global.be_time.txt": {
       "FormatString": "0.0",
       "Formula": {
-        "Expression": "if(\r\n    [SessionTypeName] == 'Race',\r\n    if(\r\n        isnull(drivergaptoplayer(\r\n            if(\r\n                getopponentleaderboardposition_aheadbehind_playerclassonly(1) < 1,\r\n                0,\r\n                getopponentleaderboardposition_aheadbehind_playerclassonly(1)\r\n            )\r\n        )),\r\n        '-',\r\n        abs(drivergaptoplayer(\r\n            if(\r\n                getopponentleaderboardposition_aheadbehind_playerclassonly(1) < 1,\r\n                0,\r\n                getopponentleaderboardposition_aheadbehind_playerclassonly(1)\r\n            )\r\n        ))\r\n    ),\r\n    if(\r\n        isnull(drivergaptoplayer(\r\n            if(\r\n                ([Position] + 1) < 1,\r\n                0,\r\n                [Position] + 1\r\n            )\r\n        )),\r\n        '-',\r\n        format(\r\n            abs(drivergaptoplayer(\r\n                if(\r\n                    ([Position] + 1) < 1,\r\n                    0,\r\n                    [Position] + 1\r\n                )\r\n            )),\r\n            '0.000'\r\n        )\r\n    )\r\n)\r\n"
+        "Expression": "if(\r\n    [SessionTypeName] == 'RACE',\r\n    if(\r\n        isnull(drivergaptoplayer(\r\n            if(\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])+1) < 1,\r\n                0,\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])+1)\r\n            )\r\n        )),\r\n        '-',\r\n        abs(drivergaptoplayer(\r\n            if(\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])+1) < 1,\r\n                0,\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])+1)\r\n            )\r\n        ))\r\n    ),\r\n    if(\r\n        isnull(driverdeltatoplayer( \r\n            if(\r\n                (getopponentleaderboardposition_playerclassonly(driverclassposition([Position])+1)) < 1,\r\n                0,\r\n                getopponentleaderboardposition_playerclassonly(driverclassposition([Position])+1)\r\n            )\r\n        )),\r\n        '-',\r\n        format(\r\n            abs(driverdeltatoplayer(\r\n                if(\r\n                    (getopponentleaderboardposition_playerclassonly(driverclassposition([Position])+1)) < 1,\r\n                    0,\r\n                    getopponentleaderboardposition_playerclassonly(driverclassposition([Position])+1)\r\n                )\r\n            )),\r\n            '0.000'\r\n        )\r\n    )\r\n)\r\n"
       },
       "Mode": 2
     },
     "global.ae_gap.pco": {
       "Formula": {
-        "Expression": "63488"
+        "Expression": "63943"
       },
       "Mode": 2
     },
@@ -952,13 +952,13 @@
     },
     "global.ah.txt": {
       "Formula": {
-        "Expression": "if([SessionTypeName] == 'Race',\r\n  'P ' + format((getopponentleaderboardposition_aheadbehind_playerclassonly(-1) < 1 ? '-' : getopponentleaderboardposition_aheadbehind_playerclassonly(-1)), '0'),\r\n  'P ' + format(([Position] - 1 < 1 ? '-' : [Position] - 1), '0')\r\n)\r\n\r\n"
+        "Expression": "'P ' + format((driverclassposition([Position]) - 1 < 1 ? '-' : driverclassposition([Position]) - 1), '0')\r\n\r\n\r\n"
       },
       "Mode": 2
     },
     "global.be.txt": {
       "Formula": {
-        "Expression": "if([SessionTypeName] == 'Race',\r\n  'P ' + format((getopponentleaderboardposition_aheadbehind_playerclassonly(1) < 1 ? '-' : getopponentleaderboardposition_aheadbehind_playerclassonly(1)), '0'),\r\n  'P ' + format(([Position] + 1 < 1 ? '-' : [Position] + 1), '0')\r\n)\r\n"
+        "Expression": "'P ' + format((driverclassposition([Position]) + 1 < 1 ? '-' : driverclassposition([Position]) + 1), '0')\r\n\r\n\r\n"
       },
       "Mode": 2
     },
